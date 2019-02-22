@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta charset="UTF-8">
+     <meta name="viewport"
+           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title> IEEE Registation</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/stylemainform.css" type="text/css">
+     <script src="JS/js_site.js"></script>
+    </head>
+ <body onload="myFunction()">
+    
+<div id="loader"> 
+      <img src="img/loader.gif" >
+    </div>
+<div style="display:none;" id="myDiv" class="animate-bottom">
+        <div class="form-main">
+           
+            <form>
+                            <img src="img/logo-white.png">
+ <hr>
+              <h2> Enter Your Data</h2>
+                <div class="reg-data">
+                 <label>First Name :</label><br><span class="dis"> (Arabic/English) </span><br>
+                 <input type="text" placeholder="First Name" class="main_data">
+                </div>
+                <div class="reg-data">
+                 <label>Last Name :</label><br><span class="dis"> (Arabic/English) </span><br>
+                 <input class="main_data" type="text" placeholder="Last Name">
+                </div>
+                <div class="reg-data">
+                 <label>Email :</label><br>
+                 <input class="main_data" type="text" placeholder="Email">
+                </div>
+                <div class="reg-data">
+                 <label>Facebook Url :</label><br>
+                 <input class="main_data" type="text" placeholder="Facebook Url">
+                </div>
+                <div class="reg-data">
+                 <label>Phone :</label><br>
+                 <input class="main_data" type="text" placeholder="Phone">
+                </div>
+                <div class="reg-data">
+                 <label>University :</label><br>
+                 <input class="main_data" type="text" placeholder="University">
+                </div>
+                <div class="reg-data">
+                 <label>Department :</label><br>
+                 <input class="main_data" type="text" placeholder="Department">
+                </div>
+                <div class="reg-data regon">
+                    <h3>Academic Year:</h3>
+                    <label class="container">First
+                        <input type="radio"  name="sec">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">second
+                        <input type="radio" name="sec">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Third
+                        <input type="radio" name="sec">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Fourth
+                        <input type="radio" name="sec">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Fifth
+                        <input type="radio" name="sec">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">others
+                        <input type="radio" name="sec">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="regon">
+                <h3> How did you know about us?</h3>
+                   
+                    <label class="container ">facebook
+                        <input type="radio"  name="social">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">friends
+                        <input type="radio" name="social">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">university
+                        <input type="radio" name="social">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">others
+                        <input type="radio" name="social">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="regon">
+               <h3> Selection of committee : </h3>
+
+                    <label class="container">HR
+                        <input type="radio"  name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">PR
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">java
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">web
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">social media
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">media
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">python
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <button type="submit" class="butto" onclick="myFunction()"> complete your registration</button>
+
+             </form>
+
+        </div>
+     </div>
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+
+    </body>    
+</html> 

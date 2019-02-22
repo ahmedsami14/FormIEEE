@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> IEEE Registation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+   
+</head>
+<body onload="myFunction()">
+     <div id="loader"> 
+      <img src="img/loader.gif" >
+    </div>
+<div style="display:none;" id="myDiv" class="animate-bottom">
+    <div class="dmain">
+        <img src="img/logo-white.png" >
+        <p class="para">Welcome to IEEE <br>
+            <span class="local">Let's go to join us </span></p>
+        <a href="index.html" ><button class="butt">Start</button></a>
+    </div>
+           <p class="footer" style="text-align: center; color: aliceblue;  margin-top: 100px;" > &copy; Course Registration Form . All Rights Reserved | Design by <span><a  href="http://www.ieeebusb.com/" target="_blank"> <img src="img/logo-footer.png" width="100px" height="50px"></a></span> </p>
+
+    </div>
+    
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+</body>
+</html>
